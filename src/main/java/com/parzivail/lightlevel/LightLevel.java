@@ -30,6 +30,6 @@ public class LightLevel implements ClientModInitializer
 	public void onInitializeClient()
 	{
 		KeyBindingRegistryImpl.addCategory(KEYBIND_CATEGORY);
-		KeyBindingHelper.registerKeyBinding(keyToggle = new KeyBinding(TOGGLE_KEYBIND.toString(), GLFW.GLFW_KEY_F9, KEYBIND_CATEGORY));
+		KeyBindingHelper.registerKeyBinding(keyToggle = new KeyBinding(TOGGLE_KEYBIND.toString(), GLFW.GLFW_KEY_L, KEYBIND_CATEGORY));
 	}
 }
